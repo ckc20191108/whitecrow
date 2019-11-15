@@ -9,9 +9,15 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('set', 'linker', {'domains': ['github.io', 'netlify.com']});
+  gtag('config', 'UA-151213855-1', {
+  'linker': {
+    'domains': ['github.io', 'netlify.com']
+  }
+});
 
-  gtag('config', 'UA-151213855-1');
+  <!-- gtag('set', 'linker', {'domains': ['github.io', 'netlify.com']}); -->
+
+  <!-- gtag('config', 'UA-151213855-1'); -->
 ;
 </script>
 
